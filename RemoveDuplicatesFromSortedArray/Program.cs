@@ -1,4 +1,6 @@
-﻿class Program
+﻿
+
+class Program
 {
    
 
@@ -14,6 +16,12 @@
                 distinctList.Add(num);
             }
         }
+        foreach (int num in distinctList)
+        {
+            dup = num;
+
+        }
+
         
 
         return dup;
